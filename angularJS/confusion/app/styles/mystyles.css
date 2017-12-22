@@ -1,0 +1,281 @@
+* {
+  border-radius: 0;
+}
+
+.panel, .well, .label, .badge, .btn, .form-control, .input-group-addon, 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,
+.nav-tabs>li>a {
+  border-radius: 0;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 10px 0px;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #AfAfAf;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 20px 30px;
+    background: #d9534f;
+    color: floralwhite;
+}
+
+.carousel {
+    background: #1a237e;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.carousel .item img {
+    left: 0;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-inverse {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.open>a {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background: #111;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    background-color: #111;
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #111;
+    color: #eeeeee;
+}
+
+address {
+    color: #0f0f0f;
+    font-size: 80%;
+    margin: 0px;
+}
+
+body {
+    align: center;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.tab-content {
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.dish-comments-tab {
+    margin: 0px auto;
+   /*  padding: 10px 0px; */
+   /*  border-bottom: 1px ridge; */
+}
+
+div.comment-preview {
+    /* margin-top: 10px; */
+    color: #777;
+}
+/* .comment-preview>h3 {
+    color: #555;
+} */
+
+.btn-danger.submit {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    background-image: none;
+}
+
+.affix {
+    top: 100px;
+}
+
+#carouselButtons {
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.dish-comment {
+    font: 0.9em;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #555;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #d9534f;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+blockquote>h3 {
+    margin-top: 0;
+}
+
+blockquote>p {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+blockquote>q {
+    line-height: 150%;
+}
+
+.comments:hover,
+.comments:active,
+.comments:focus {
+    color: #111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-tabs a {
+    cursor: pointer;
+}
+
+div.comments-div {
+    max-height: 1200px;
+    overflow: hidden;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+div.comments-div.display-class {
+    max-height: 0px;
+}
+
+div.details-div {
+    max-height: 500px;
+    overflow: hidden;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+div.details-div.display-class {
+    max-height: 0px;
+}
+
+.more-info {
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.more-info,
+.more-info:hover,
+.more-info:active {
+   text-decoration: none;
+}
+
+.more-info span {
+    display: inline-block;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transition-delay: 0.15s;
+    /* Safari */
+    transition-delay: 0.15s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.more-info span.display-class {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+  float: right;
+}
+
+.padding20 {
+  padding-top: 20px;
+}
+
+ul.media-list {
+  list-style-type:none;
+}
+
+/* li.media {
+  display: none;
+} */
+
+.error-message {
+    vertical-align: middle;
+}
+
+.error-message>h3 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+@media screen and (min-width: 768px) {
+    .jumbotron h1 {
+        font-size: 42px;
+    }
+}
